@@ -13,6 +13,10 @@ const Intro = () => {
                     <li>Web Developer</li>
                     <li>Competitive Programmer</li>
                 </ul>
+                <div className='mt-3'>
+                    <button className={`${introStyles.customBtn1}`}>Get Resume</button>
+                    <button className={`${introStyles.customBtn2}`}>About Me</button>
+                </div>
             </div>
             <div className={`${introStyles.introImg} col-12 col-lg-6`}>
                 <img className={`w-75`} src={intoImg} alt='intro' />

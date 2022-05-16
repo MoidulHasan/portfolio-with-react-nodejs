@@ -35,6 +35,40 @@ ul li::before {
     margin-left: -1em;
 }
 
+.customBtn1 {
+    color: rgba(255, 255, 255, 0.85);
+    /* border-color: #00cf5d; */
+    background-color: #33b5e5;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.customBtn1:hover {
+    background-color: #212F3E;
+    border-color: #33b5e5;
+}
+
+.customBtn2 {
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #33b5e5;
+    background-color: #212F3E;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 3px;
+    border-width: 2px;
+}
+
+.customBtn2:hover {
+    background-color: #33b5e5;
+    border-color: #33b5e5;
+}
+
+
 .introImg {
     width: 100%;
 }
