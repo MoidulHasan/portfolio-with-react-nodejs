@@ -1,0 +1,52 @@
+.intro {
+    background-image: url('../../images/home-bg-1.svg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.name {
+    font-size: 5em;
+}
+
+.designation {
+    font-size: 3em;
+}
+
+.list {
+    display: flex;
+    column-gap: 1.5em;
+    font-size: 1.3em;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #33b5e5;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media only screen and (max-width: 576px) {
+    .name {
+        font-size: 2em;
+    }
+
+    .designation {
+        font-size: 1.5em;
+    }
+
+    .list {
+        display: flex;
+        column-gap: 1.5em;
+        font-size: 0.9em;
+    }
+}
