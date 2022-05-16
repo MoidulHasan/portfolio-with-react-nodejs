@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import headerStyle from './header.module.css'
 const Header = () => {
     return (
-        <div className={`${headerStyle.header} d-flex justify-content-between shadow position-static`}>
+        <div className={`${headerStyle.header} d-flex justify-content-between shadow position-fixed w-100`}>
             <div className={`text-light m-2 ms-5`}>
                 <NavLink to={'/'} className={`text-decoration-none`}>
                     <h1 className={`m-2 text-light`}>Home</h1>
