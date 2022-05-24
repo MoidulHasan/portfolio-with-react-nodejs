@@ -1,0 +1,28 @@
+.main {
+    background-color: #212F3E;
+    height: 100%;
+    padding: 5%;
+}
+
+.degree {
+    background-color: #445363;
+    /* height: 100; */
+    border-radius: 10px;
+}
+
+.degContainer {
+    /* height: 13em; */
+}
+
+.degContainer :hover {
+    background-color: #5e7288;
+    /* border-radius: 10px; */
+}
+
+.graduationCap {
+    font-size: 5rem;
+}
+
+.institute {
+    color: rgb(156, 206, 189);
+}
