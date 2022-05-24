@@ -13,9 +13,14 @@
     transform: scale(.95);
     filter: grayscale(1);
     transition: all 1s;
+    z-index: 1;
 }
 
 .profile:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
+}
+
+.stopstalk {
+    height: 40px;
 }

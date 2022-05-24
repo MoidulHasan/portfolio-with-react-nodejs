@@ -16,7 +16,7 @@
 
 .degContainer :hover {
     background-color: #5e7288;
-    /* border-radius: 10px; */
+    border-radius: 10px;
 }
 
 .graduationCap {

@@ -8,15 +8,15 @@ const Education = (props) => {
         <div className={`${eduStyle.main} text-light`} id="education">
             <div className="row">
                 <h2 className="text-info text-uppercase"><span className="text-light">02.</span> Education</h2>
-                <div className={`row mt-2 p-xl-5 h-100`}>
+                <div className={`row mt-1 p-xl-5 h-100 d-md-flex justify-content-between `}>
 
                     <div className={`col-12 col-md-4`}>
                         <img src={eduMetarial} className={`w-100`} alt="education" />
                     </div>
 
-                    <div className={`col-12 col-md-7 ms-md-1 p-0 m-0 row  py-2 ${eduStyle.degContainer}`}>
+                    <div className={`col-12 col-md-7 ms-md-1 p-0 m-0 row py-2 ${eduStyle.degContainer}`}>
 
-                        <div className={`col-12 row p-0 my-2 mx-0 d-flex justify-content-center align-items-center ${eduStyle.degree}`}>
+                        <div className={`col-12 row p-0 my-2 mx-0 d-flex align-items-center ${eduStyle.degree}`}>
                             <div className={`col-2 d-md-flex justify-content-center align-items-center d-none `}>
                                 <img src={gradCap} className={`w-75`} alt="graduation cap" />
                             </div>
