@@ -28,10 +28,6 @@ const About = (props) => {
                             <img src={stopstalk} className={`${aboutStyle.stopstalk}`} alt="stops talk profile" />
                         </a>
 
-                        {/* <a href="https://www.hackerrank.com/AntuKhan" target="_blank" rel="noreferrer noopener">
-                            <i class="fa-brands fa-hackerrank fs-1"></i>
-                        </a> */}
-
                     </div>
                 </div>
                 <div className="col-12 col-lg-6 d-flex justify-content-center">
