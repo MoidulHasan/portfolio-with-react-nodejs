@@ -22,15 +22,14 @@ const Skills = (props) => {
         "jQuery",
         "Git",
         "GitHub",
-        "Algorithm Design & Analysis",
         "Data Structure",
+        "Algorithm",
         "Problem Solving"
-
     ];
     return (
         <div className={`${skillStyle.main} text-light`} id="skills">
             <h2 className="text-info text-uppercase"><span className="text-light">03.</span> My Skills</h2>
-            <div className={`row`}>
+            <div className={`row d-flex justify-content-center`}>
                 {skillist.map((skill) => (
                     <Skill skill={skill} />
                 ))}

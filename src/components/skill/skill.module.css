@@ -7,17 +7,24 @@
     text-align: center;
     background-color: #00989A;
     border-radius: 15px;
+    width: 125px;
+    height: 135px;
 }
 
 .wrap:hover {
+
     background-color: #00b6b6;
     border-radius: 5px;
     transform: scale(1.05);
     transition: all 1s;
 }
 
+
+
 .iconBox {
     padding: 10px;
+    height: 100px;
+    width: 100%;
 }
 
 .icon {
@@ -25,15 +32,27 @@
     border-radius: 100px;
 }
 
+.wrap:hover>.iconBox>.icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+/* 
 .icon:hover {
     background-color: rgb(255, 255, 255);
-    border-radius: 40px;
+    border-radius: 20px;
     transition: all 0.8s;
-}
+} */
 
 
 .icon img {
-    padding: 5%;
+    /* padding: 5%; */
+    margin: 0;
+    /* box-sizing: border-box; */
+    vertical-align: middle;
+    width: 55%;
+    height: 80px;
 }
 
 .mongooseStyle {
