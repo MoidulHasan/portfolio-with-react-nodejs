@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    height: 500px;
+    width: 90%;
+    /* width: 500px; */
+    border-radius: 10px;
+    border-color: rgba(24, 53, 252, 0.53);
+    border-width: 1px;
+    box-shadow: 0px 0px 16px 11px rgba(24, 53, 252, 0.53);
+    -webkit-box-shadow: 0px 0px 16px 11px rgba(24, 53, 252, 0.53);
+    -moz-box-shadow: 0px 0px 16px 11px rgba(24, 53, 252, 0.53);
+}
+
+.banner {
+    /* height: 500px; */
+    /* position: absolute; */
+    position: relative;
+    height: 600px;
+    overflow: auto;
+    width: 100%;
+}
+
+.banner img {
+    /* position: absolute; */
+    /* scroll-behavior: smooth;
+    overflow: auto; */
+    /* height: 100%; */
+    width: 100%;
+    border-radius: 10px;
+}

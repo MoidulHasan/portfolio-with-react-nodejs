@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from '../../components/intro/intro';
 import About from '../about/about';
 import Education from '../education/education';
+import Projects from '../projects/projects';
 import Skills from '../skills/skills';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <About />
             <Education />
             <Skills />
+            <Projects />
         </div>
     );
 };
